@@ -1,14 +1,17 @@
-export default function ServiceItem({ serviceName }) {
-  if (typeof window === "undefined") {
-    console.log("Running ServiceItem as a Server Component");
-  } else {
-    console.log("Running ServiceItem as a Client Component");
-  }
+"use client";
+import ServiceItem from "./ServiceItem";
 
+export default function ServiceList({ children }) {
+  // const services = ["Web Development", "Mobile App Development", "Consulting Services", "Digital Marketing"];
   return (
     <>
-      <p>ServiceItem Para</p>
-      <li>{serviceName}</li>
+      <h3>All Services List</h3>
+      <ul className="services-list">
+        {/* {services.map((service) => (
+          <ServiceItem key={service} serviceName={service} />
+        ))} */}
+        {children}
+      </ul>
     </>
   );
 }

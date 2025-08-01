@@ -7,7 +7,7 @@ export default function ServiceItem({ serviceName }) {
 
   return (
     <>
-      <p>ServiceItem Para</p>
+      <p style={{ display: "none" }}>ServiceItem Para</p>
       <li>{serviceName}</li>
     </>
   );
