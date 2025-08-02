@@ -5,8 +5,10 @@ import { usePathname } from "next/navigation"; // for checking current route
 import SunIcon from "./SunIcon";
 import MoonIcon from "./MoonIcon";
 
+import { useTheme } from "@/context/ThemeContext";
+
 export default function Header() {
-  const isDark = true;
+  const { isDark, toggleTheme } = useTheme();
   const pathname = usePathname();
   return (
     <nav className="navbar">
@@ -26,14 +28,14 @@ export default function Header() {
             Services
           </Link>
         </li>
+        <li>
+          <Link href="/blogs" className={pathname === "/blogs" ? "nav-link active" : "nav-link"}>
+            Blogs
+          </Link>
+        </li>
       </ul>
 
-      <button
-        onClick={() => {
-          console.log("Theme button clicked");
-        }}>
-        {isDark ? <SunIcon /> : <MoonIcon />}
-      </button>
+      <button onClick={toggleTheme}>{isDark ? <SunIcon /> : <MoonIcon />}</button>
     </nav>
   );
 }

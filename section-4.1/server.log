@@ -1,0 +1,75 @@
+
+> section-4.1@0.1.0 start
+> next start
+
+   Γû▓ Next.js 15.4.5
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.158.203:3000
+
+ Γ£ô Starting...
+ Γ£ô Ready in 577ms
+0.6458409467918611
+ Γ¿» Error: Error occurred
+    at e (C:\Users\HP\Documents\Shad\Next js\Next JS by Procodrr\section-4.1\.next\server\app\blogs\[blogID]\page.js:2:8413) {
+  digest: '4135316083'
+}
+
+> section-4.1@0.1.0 start
+> next start
+
+   Γû▓ Next.js 15.4.5
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.158.203:3000
+
+ Γ£ô Starting...
+ Γ£ô Ready in 593ms
+0.6812033325893652
+ Γ¿» Error: Error occurred
+    at e (C:\Users\HP\Documents\Shad\Next js\Next JS by Procodrr\section-4.1\.next\server\app\blogs\[blogID]\page.js:2:8413) {
+  digest: '4135316083'
+}
+
+> section-4.1@0.1.0 start
+> next start
+
+   Γû▓ Next.js 15.4.5
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.158.203:3000
+
+ Γ£ô Starting...
+ Γ£ô Ready in 574ms
+0.3776138779702567
+0.34764130061570153
+0.6383200414650618
+ Γ¿» Error: Error occurred
+    at e (C:\Users\HP\Documents\Shad\Next js\Next JS by Procodrr\section-4.1\.next\server\app\blogs\[blogID]\page.js:2:8413) {
+  digest: '4135316083'
+}
+0.7850471974512878
+ Γ¿» Error: Error occurred
+    at e (C:\Users\HP\Documents\Shad\Next js\Next JS by Procodrr\section-4.1\.next\server\app\blogs\[blogID]\page.js:2:8413) {
+  digest: '4135316083'
+}
+0.8544822564277281
+ Γ¿» Error: Error occurred
+    at e (C:\Users\HP\Documents\Shad\Next js\Next JS by Procodrr\section-4.1\.next\server\app\blogs\[blogID]\page.js:2:8413) {
+  digest: '4135316083'
+}
+0.5781317382497597
+ Γ¿» Error: Error occurred
+    at e (C:\Users\HP\Documents\Shad\Next js\Next JS by Procodrr\section-4.1\.next\server\app\blogs\[blogID]\page.js:2:8413) {
+  digest: '4135316083'
+}
+0.20446735383478565
+0.2901819842491309
+0.8056610450755055
+ Γ¿» Error: Error occurred
+    at e (C:\Users\HP\Documents\Shad\Next js\Next JS by Procodrr\section-4.1\.next\server\app\blogs\[blogID]\page.js:2:8413) {
+  digest: '4135316083'
+}
+0.2067045795779865
+0.6450385302088779
+ Γ¿» Error: Error occurred
+    at e (C:\Users\HP\Documents\Shad\Next js\Next JS by Procodrr\section-4.1\.next\server\app\blogs\[blogID]\page.js:2:8413) {
+  digest: '4135316083'
+}
