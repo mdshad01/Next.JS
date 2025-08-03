@@ -1,6 +1,13 @@
-import Header from "@/components/Header";
+export const dynamic = "force-dynamic";
 
 const Home = () => {
+  const randomNumber = Math.random();
+  console.log(randomNumber);
+
+  if (randomNumber > 0.5) {
+    throw new Error("Error occurred");
+  }
+
   return (
     <>
       <div>
