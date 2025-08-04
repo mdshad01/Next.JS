@@ -1,0 +1,12 @@
+.title {
+  font-family: cursive;
+  font-size: 3rem;
+  color: rgb(255, 251, 27);
+}
+
+.home {
+  /* background-color: rebeccapurple; */
+  color: white;
+  height: calc(100vh - 160px);
+  width: 100%;
+}
